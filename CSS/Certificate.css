@@ -1,0 +1,29 @@
+.cercle {
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    background: linear-gradient(180deg, rgb(76, 76, 76), rgb(0, 81, 255, 0), rgb(0, 0, 0, 0));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.picture-certificate {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    bottom: 50px;
+    position: relative;
+    text-align: center;
+}
+
+@media (max-width:726px) {
+    .cercle {
+        top: 100px;
+        border-radius: 20%;
+    }
+}

@@ -1,0 +1,16 @@
+.project-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 80vw;
+    padding: 40px;
+}
+
+@media (max-width: 726px) {
+    .project-overlay {
+        width: 100%;
+        padding: 1rem;
+    }
+    
+}

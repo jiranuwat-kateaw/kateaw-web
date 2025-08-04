@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="tn">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>งานครั้งที่ 4</title>
+    <link rel="stylesheet" href="../CSS/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: kanit;
+        }
+    </style>
+
+</head>
+
+<body class="bg-light p-5">
+    <div class="mb-5">
+        <h1>โปรแกรมบวกเลข</h1>
+        <input type="number" class="form-control m-3" id="number1" placeholder="กรอกเลข 1">
+        <input type="number" class="form-control m-3" id="number2" placeholder="กรอกเลข 2">
+
+        <button type="button" class="btn btn-primary m-3" onclick="alert(+number1.value + +number2.value)">ตรวจสอบ</button>
+    </div>
+
+    <hr>
+
+    <div class="mb-5">
+        <h1>โปรแกรมลบเลข</h1>
+        <input type="number" class="form-control m-3" id="number3" placeholder="กรอกเลข 1">
+        <input type="number" class="form-control m-3" id="number4" placeholder="กรอกเลข 2">
+
+        <button type="button" class="btn btn-primary m-3" onclick="alert(+number3.value - +number4.value)">ตรวจสอบ</button>
+    </div>
+
+    <hr>
+
+    <div class="mb-5">
+        <h1>โปรแกรมหาค่าพื้นสามเหลี่ยม</h1>
+        <input type="number" class="form-control m-3" id="number5" placeholder="ฐาน">
+        <input type="number" class="form-control m-3" id="number6" placeholder="สูง">
+
+        <button type="button" class="btn btn-primary m-3" onclick="alert(0.5 * +number5.value * +number6.value)">ตรวจสอบ</button>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

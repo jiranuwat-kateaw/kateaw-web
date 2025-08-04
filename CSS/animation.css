@@ -1,0 +1,82 @@
+.popup {
+    animation: popup linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
+}
+
+@keyframes popup {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    
+}
+
+
+
+.leftSlide {
+    animation: leftSlide linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
+}
+
+@keyframes leftSlide {
+    0% {
+        transform: translateX(-20%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+    
+}
+
+
+
+.rightSlide {
+    animation: rightSlide linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
+}
+
+@keyframes rightSlide {
+    0% {
+        transform: translateX(20%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+    
+}
+
+
+
+
+.rightSlide-1 {
+    animation: right-Slide linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 5%;
+}
+
+@keyframes right-Slide {
+    0% {
+        transform: translateX(20%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+    
+}
